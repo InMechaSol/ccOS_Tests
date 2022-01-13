@@ -1,0 +1,3 @@
+[submodule "ccOS"]
+	path = ccOS
+	url = https://github.com/InMechaSol/ccOS.git
