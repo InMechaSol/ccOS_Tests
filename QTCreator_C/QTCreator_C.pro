@@ -9,33 +9,26 @@ DEFINES += \
     __USINGFLOATPRINTF \
     EXAMPLE_POWER_METER
 
-INCLUDEPATH += ../ccNOos/tests/
+INCLUDEPATH += ../ccOS/ccNOos/tests/
 
 SOURCES += \
-    ../ccNOos/ccLibs/acs/satComControl.c \
-    ../ccNOos/ccLibs/mcs/motionControl.c \
-    ../ccNOos/computeModule/compute_module.c \
-    ../ccNOos/consoleMenu/console_menu.c \
-    ../ccNOos/executionSystem/execution_system.c \
-    ../ccNOos/ioDevice/io_device.c \
-    ../ccNOos/tests/AttensUIExample.c \
-    ../ccNOos/tests/SatComACSExample.c \
-    ../ccNOos/tests/SatComPowerMeterExample.c \
-    ../ccNOos/tests/SysTickExample.c \
-    ../ccNOos/tests/ccNOos_tests.c \
-    QTCreator_C.c
+    ../ccOS/ccNOos/ccLibs/acs/satComControl.c \
+    ../ccOS/ccNOos/ccLibs/mcs/motionControl.c \
+    ../ccOS/ccNOos/computeModule/compute_module.c \
+    ../ccOS/ccNOos/consoleMenu/console_menu.c \
+    ../ccOS/ccNOos/executionSystem/execution_system.c \
+    ../ccOS/ccNOos/ioDevice/io_device.c \
+    ../ccOS/ccNOos/tests/testApps/ccNOos_Tests/Application_Solution.c \
+    ../ccOS/ccNOos/tests/testApps/ccNOos_Tests/PlatformApp_Serialization.c \
+    ../ccOS/ccNOos/tests/testMainTemplates/Application_Platform_Main.c
 
 HEADERS += \
-    ../ccNOos/ccLibs/acs/satComControl.h \
-    ../ccNOos/ccLibs/mcs/motionControl.h \
-    ../ccNOos/computeModule/compute_module.h \
-    ../ccNOos/consoleMenu/console_menu.h \
-    ../ccNOos/executionSystem/execution_system.h \
-    ../ccNOos/executionSystem/version_config.h \
-    ../ccNOos/ioDevice/io_device.h \
-    ../ccNOos/tests/AttensUIExample.h \
-    ../ccNOos/tests/Platform_QTCreatorC.h \
-    ../ccNOos/tests/SatComACSExample.h \
-    ../ccNOos/tests/SatComPowerMeterExample.h \
-    ../ccNOos/tests/SysTickExample.h \
-    ../ccNOos/tests/ccNOos_tests.h
+    ../ccOS/ccNOos/ccLibs/acs/satComControl.h \
+    ../ccOS/ccNOos/ccLibs/mcs/motionControl.h \
+    ../ccOS/ccNOos/computeModule/compute_module.h \
+    ../ccOS/ccNOos/consoleMenu/console_menu.h \
+    ../ccOS/ccNOos/executionSystem/execution_system.h \
+    ../ccOS/ccNOos/executionSystem/version_config.h \
+    ../ccOS/ccNOos/ioDevice/io_device.h \
+    ../ccOS/ccNOos/tests/testApps/ccNOos_Tests/Application_Solution.h \
+    ../ccOS/ccNOos/tests/testApps/ccNOos_Tests/PlatformApp_Serialization.h
