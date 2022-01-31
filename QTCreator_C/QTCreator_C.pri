@@ -6,10 +6,9 @@ CONFIG -= qt
 DEFINES += \
     PLATFORM_QTCreatorC \
     __USINGCONSOLEMENU \
-    __USINGFLOATPRINTF \
-    EXAMPLE_POWER_METER
+    __USINGFLOATPRINTF
 
-INCLUDEPATH += ../ccOS/ccNOos/tests/
+INCLUDEPATH +=
 
 SOURCES += \
     ../ccOS/ccNOos/ccLibs/acs/satComControl.c \
@@ -17,10 +16,7 @@ SOURCES += \
     ../ccOS/ccNOos/computeModule/compute_module.c \
     ../ccOS/ccNOos/consoleMenu/console_menu.c \
     ../ccOS/ccNOos/executionSystem/execution_system.c \
-    ../ccOS/ccNOos/ioDevice/io_device.c \
-    ../ccOS/ccNOos/tests/testApps/ccNOos_Tests/Application_Solution.c \
-    ../ccOS/ccNOos/tests/testApps/ccNOos_Tests/PlatformApp_Serialization.c \
-    ../ccOS/ccNOos/tests/testMainTemplates/Application_Platform_Main.c
+    ../ccOS/ccNOos/ioDevice/io_device.c
 
 HEADERS += \
     ../ccOS/ccNOos/ccLibs/acs/satComControl.h \
@@ -30,5 +26,4 @@ HEADERS += \
     ../ccOS/ccNOos/executionSystem/execution_system.h \
     ../ccOS/ccNOos/executionSystem/version_config.h \
     ../ccOS/ccNOos/ioDevice/io_device.h \
-    ../ccOS/ccNOos/tests/testApps/ccNOos_Tests/Application_Solution.h \
-    ../ccOS/ccNOos/tests/testApps/ccNOos_Tests/PlatformApp_Serialization.h
+    ../ccOS/tests/testPlatforms/Platform_QTCreatorC.h
