@@ -118,9 +118,6 @@
     <Filter Include="Source Files\ccOS\ccNOos\tests\testApps\ccNOos_Tests">
       <UniqueIdentifier>{0c6e2158-b403-4256-ad1e-dce4f675950b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\ccOS\ccNOos\tests\testMainTemplates">
-      <UniqueIdentifier>{c559d2c0-8c3d-47ca-af0f-b53d5cfc9ea0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\ccOS\tests">
       <UniqueIdentifier>{e26605ab-3c89-48c3-99c5-0c631c260935}</UniqueIdentifier>
     </Filter>
@@ -148,9 +145,6 @@
     <Filter Include="Source Files\ccOS\tests\testMainTemplates">
       <UniqueIdentifier>{c4d69827-3706-4824-8695-54b6017bf123}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\ccOS\tests\testMainTemplates">
-      <UniqueIdentifier>{93b4ac65-0672-488a-b875-88c1a42502d8}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\ccOS\tests\testPlatforms">
       <UniqueIdentifier>{d4187ae4-c6fd-4b3d-9014-4c2503c046c6}</UniqueIdentifier>
     </Filter>
@@ -168,6 +162,30 @@
     </Filter>
     <Filter Include="Source Files\ccOS\tests\testApps\ccACU">
       <UniqueIdentifier>{4530b909-b2c4-4ba8-ab77-990aafdda229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\tests\testMainFiles">
+      <UniqueIdentifier>{93b4ac65-0672-488a-b875-88c1a42502d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccNOos\tests\testMainFiles">
+      <UniqueIdentifier>{c559d2c0-8c3d-47ca-af0f-b53d5cfc9ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccNOos\tests\testMainFiles\ccNOos_Tests">
+      <UniqueIdentifier>{ff327ed5-508a-4ea4-b1ba-e9ed8b6408b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccNOos\tests\testMainFiles\SatComACS">
+      <UniqueIdentifier>{9da3afb0-bb11-47c0-a871-ebb0082c6e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccNOos\tests\testMainFiles\SysTick">
+      <UniqueIdentifier>{bda70ff6-8f26-4784-8ca8-4b57d6731b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccNOos\tests\testMainFiles\ccNOos_Tests\WIN32">
+      <UniqueIdentifier>{2bb10c36-8128-47df-ab40-581e3e6f62b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32">
+      <UniqueIdentifier>{9ddd60d2-5437-4973-ba5f-c3b4b0c96793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32">
+      <UniqueIdentifier>{ad0b7177-fc8d-4760-9654-916ce2ae2022}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -188,9 +206,6 @@
     </ClCompile>
     <ClCompile Include="..\ccOS\ccNOos\tests\testApps\ccNOos_Tests\PlatformApp_Serialization.cpp">
       <Filter>Source Files\ccOS\ccNOos\tests\testApps\ccNOos_Tests</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ccOS\ccNOos\tests\testMainTemplates\Application_Platform_Main.cpp">
-      <Filter>Source Files\ccOS\ccNOos\tests\testMainTemplates</Filter>
     </ClCompile>
     <ClCompile Include="..\ccOS\tests\testApps\ccOS_Tests\ccOS_tests.cpp">
       <Filter>Source Files\ccOS\tests\testApps\ccOS_Tests</Filter>
@@ -243,6 +258,15 @@
     <ClCompile Include="..\ccOS\ccNOos\ioDevice\io_device_class.cpp">
       <Filter>Source Files\ccOS\ccNOos\ioDevice</Filter>
     </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\tests\testMainFiles\ccNOos_Tests\WIN32\Application_Platform_Main.cpp">
+      <Filter>Source Files\ccOS\ccNOos\tests\testMainFiles\ccNOos_Tests\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32\Application_Platform_Main.cpp">
+      <Filter>Source Files\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32\Application_Platform_Main.cpp">
+      <Filter>Source Files\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SysTick\Application_Solution.h">
@@ -269,9 +293,6 @@
     <ClInclude Include="..\ccOS\ccNOos\tests\testApps\ccNOos_Tests\Application_Solution.c">
       <Filter>Source Files\ccOS\ccNOos\tests\testApps\ccNOos_Tests</Filter>
     </ClInclude>
-    <ClInclude Include="..\ccOS\ccNOos\tests\testMainTemplates\Application_Platform_Main.c">
-      <Filter>Source Files\ccOS\ccNOos\tests\testMainTemplates</Filter>
-    </ClInclude>
     <ClInclude Include="..\ccOS\tests\testApps\ccOS_Tests\ccOS_tests.h">
       <Filter>Header Files\ccOS\tests\testApps\ccOS_Tests</Filter>
     </ClInclude>
@@ -282,7 +303,7 @@
       <Filter>Header Files\ccOS\tests\testPlatforms</Filter>
     </ClInclude>
     <ClInclude Include="..\ccOS\tests\testMainTemplates\Application_Platform_Main.hpp">
-      <Filter>Header Files\ccOS\tests\testMainTemplates</Filter>
+      <Filter>Header Files\ccOS\tests\testMainFiles</Filter>
     </ClInclude>
     <ClInclude Include="..\ccOS\udpComms\udp_comms.hpp">
       <Filter>Header Files\ccOS\udpComms</Filter>
@@ -355,6 +376,15 @@
     </ClInclude>
     <ClInclude Include="..\ccOS\ccNOos\tests\testApps\ccNOos_Tests\PlatformApp_Serialization.c">
       <Filter>Source Files\ccOS\ccNOos\tests\testApps\ccNOos_Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\tests\testMainFiles\ccNOos_Tests\WIN32\Application_Platform_Main.c">
+      <Filter>Source Files\ccOS\ccNOos\tests\testMainFiles\ccNOos_Tests\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32\Application_Platform_Main.c">
+      <Filter>Source Files\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32\Application_Platform_Main.c">
+      <Filter>Source Files\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
