@@ -187,6 +187,24 @@
     <Filter Include="Source Files\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32">
       <UniqueIdentifier>{ad0b7177-fc8d-4760-9654-916ce2ae2022}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ccOS\ccLibs">
+      <UniqueIdentifier>{480045b7-9efa-4bb6-ae64-91c5ef39235f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccLibs\acs">
+      <UniqueIdentifier>{1e8c7ddd-bdc9-4b41-9af7-cb8007d36ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\ccLibs">
+      <UniqueIdentifier>{8d78104c-b6a6-403a-8711-95ffbd9f25ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\ccLibs\acs">
+      <UniqueIdentifier>{08f5cf20-6c51-4c26-a7a1-04d986fe318d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\ccLibs\acs\NOAA-WMM">
+      <UniqueIdentifier>{cc9f2dd0-738e-40f3-a9b6-6f648a625174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccLibs\acs\NOAA-WMM">
+      <UniqueIdentifier>{c21191fc-6786-475a-9348-1174bea214cc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ccOS\ccNOos\tests\testApps\SysTick\Application_Solution.cpp">
@@ -266,6 +284,12 @@
     </ClCompile>
     <ClCompile Include="..\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32\Application_Platform_Main.cpp">
       <Filter>Source Files\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccLibs\acs\NOAA_WMM\GeomagnetismLibrary.c">
+      <Filter>Source Files\ccOS\ccLibs\acs\NOAA-WMM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccLibs\acs\NOAA_WMM\wmm_file.c">
+      <Filter>Source Files\ccOS\ccLibs\acs\NOAA-WMM</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -385,6 +409,12 @@
     </ClInclude>
     <ClInclude Include="..\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32\Application_Platform_Main.c">
       <Filter>Source Files\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccLibs\acs\NOAA_WMM\EGM9615.h">
+      <Filter>Header Files\ccOS\ccLibs\acs\NOAA-WMM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccLibs\acs\NOAA_WMM\GeomagnetismHeader.h">
+      <Filter>Header Files\ccOS\ccLibs\acs\NOAA-WMM</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

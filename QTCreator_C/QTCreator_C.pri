@@ -11,6 +11,8 @@ DEFINES += \
 INCLUDEPATH +=
 
 SOURCES += \
+    $$PWD/../ccOS/ccNOos/ccLibs/acs/ADRF6650.c \
+    $$PWD/../ccOS/ccNOos/ccLibs/acs/LTC2360.c \
     ../ccOS/ccNOos/ccLibs/acs/satComControl.c \
     ../ccOS/ccNOos/ccLibs/mcs/motionControl.c \
     ../ccOS/ccNOos/computeModule/compute_module.c \
@@ -19,6 +21,9 @@ SOURCES += \
     ../ccOS/ccNOos/ioDevice/io_device.c
 
 HEADERS += \
+    $$PWD/../ccOS/ccNOos/ccLibs/acs/ADRF6650.h \
+    $$PWD/../ccOS/ccNOos/ccLibs/acs/ADRF6650_Map.h \
+    $$PWD/../ccOS/ccNOos/ccLibs/acs/LTC2360.h \
     ../ccOS/ccNOos/ccLibs/acs/satComControl.h \
     ../ccOS/ccNOos/ccLibs/mcs/motionControl.h \
     ../ccOS/ccNOos/computeModule/compute_module.h \
