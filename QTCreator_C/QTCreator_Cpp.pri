@@ -5,7 +5,7 @@ CONFIG -= qt
 CONFIG += c++11
 
 DEFINES += \
-    PLATFORM_OS_STDLIB \
+    PLATFORM_ccOS \
     __USINGCONSOLEMENU \
     __USINGFLOATPRINTF
 
@@ -16,7 +16,7 @@ INCLUDEPATH +=   \
     ../ccOS/ccNOos/computeModule \
     ../ccOS/ccNOos/consoleMenu \
     ../ccOS/ccNOos/executionSystem \
-    ../ccOS/ccNOos/ioDevice/io_device.h \
+    ../ccOS/ccNOos/ioDevice \
     ../ccOS/tests/testPlatforms \
     ../ccOS/ccLibs/acs \
     ../ccOS/exeThread \
@@ -46,6 +46,15 @@ HEADERS +=  \
     ../ccOS/ccNOos/computeModule/compute_module.c \
     ../ccOS/ccNOos/consoleMenu/console_menu.c \
     ../ccOS/ccNOos/executionSystem/execution_system.c \
+    ../ccOS/ccNOos/ioDevice/io_device.c \
+    ../ccOS/ccNOos/ccLibs/acs/ADRF6650.h \
+    ../ccOS/ccNOos/ccLibs/acs/LTC2360.h \
+    ../ccOS/ccNOos/ccLibs/acs/satComControl.h \
+    ../ccOS/ccNOos/ccLibs/mcs/motionControl.h \
+    ../ccOS/ccNOos/computeModule/compute_module.h \
+    ../ccOS/ccNOos/consoleMenu/console_menu.h \
+    ../ccOS/ccNOos/executionSystem/execution_system.h \
+    ../ccOS/ccNOos/executionSystem/version_config.h \
     ../ccOS/ccNOos/ioDevice/io_device.c \
     ../ccOS/exeThread/exe_thread.hpp \
     ../ccOS/osExecutionSystem/os_execution_system.hpp \
