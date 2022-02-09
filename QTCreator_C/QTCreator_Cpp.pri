@@ -17,7 +17,6 @@ INCLUDEPATH +=   \
     ../ccOS/ccNOos/consoleMenu \
     ../ccOS/ccNOos/executionSystem \
     ../ccOS/ccNOos/ioDevice \
-    ../ccOS/tests/testPlatforms \
     ../ccOS/ccLibs/acs \
     ../ccOS/exeThread \
     ../ccOS/osExecutionSystem \
@@ -60,6 +59,5 @@ HEADERS +=  \
     ../ccOS/osExecutionSystem/os_execution_system.hpp \
     ../ccOS/serialComms/serial_comms.hpp \
     ../ccOS/stdIOExtProc/stdio_extproc.hpp \
-    ../ccOS/tcpCommstcp_comms.hpp \
-    ../ccOS/udpComms/udp_comms.hpp \
-    ../ccOS/tests/testPlatforms/Platform_OS_StdLib.hpp
+    ../ccOS/tcpComms/tcp_comms.hpp \
+    ../ccOS/udpComms/udp_comms.hpp

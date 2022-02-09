@@ -142,12 +142,6 @@
     <Filter Include="Source Files\ccOS\tests\testApps">
       <UniqueIdentifier>{4a7e122e-4fac-4856-ac4a-ff7d1d4abb4f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\ccOS\tests\testMainTemplates">
-      <UniqueIdentifier>{c4d69827-3706-4824-8695-54b6017bf123}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\ccOS\tests\testPlatforms">
-      <UniqueIdentifier>{d4187ae4-c6fd-4b3d-9014-4c2503c046c6}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\ccOS\tests\testApps">
       <UniqueIdentifier>{c367ff1d-d861-4899-93ca-23b97b430376}</UniqueIdentifier>
     </Filter>
@@ -205,6 +199,36 @@
     <Filter Include="Source Files\ccOS\ccLibs\acs\NOAA-WMM">
       <UniqueIdentifier>{c21191fc-6786-475a-9348-1174bea214cc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ccOS\tests\testMainFiles">
+      <UniqueIdentifier>{c4d69827-3706-4824-8695-54b6017bf123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\tests\testMainFiles\ccACU">
+      <UniqueIdentifier>{87c85df4-6f37-47ae-bf97-8ee1682c5dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\tests\testMainFiles\ccOS_Tests">
+      <UniqueIdentifier>{0cfb1804-c6d9-4833-b1ca-7907e0cccb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\tests\testMainFiles\ccOS_Tests\WIN32">
+      <UniqueIdentifier>{db25b1a6-528d-418e-99cc-4301e37c84ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\tests\testMainFiles\ccACU\WIN32">
+      <UniqueIdentifier>{a1755c6d-5d36-4c16-b062-4df0fdeb3f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\tests\testMainFiles\ccACU">
+      <UniqueIdentifier>{a11ae132-7919-4946-8e0c-b92daf74ab30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\tests\testMainFiles\ccOS_Tests">
+      <UniqueIdentifier>{23249bc5-ee51-4ac6-8d57-f6fc0f84ae34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\tests\testMainFiles\ccACU\WIN32">
+      <UniqueIdentifier>{0ada28e0-123a-4999-a0ed-c520a2416904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\tests\testMainFiles\ccOS_Tests\WIN32">
+      <UniqueIdentifier>{51b0a54e-c292-405f-b8e4-88c84a41d987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\ccNOos\tests\testPlatforms">
+      <UniqueIdentifier>{274b6bb8-e06f-4e1f-832f-f905306cf629}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ccOS\ccNOos\tests\testApps\SysTick\Application_Solution.cpp">
@@ -224,15 +248,6 @@
     </ClCompile>
     <ClCompile Include="..\ccOS\ccNOos\tests\testApps\ccNOos_Tests\PlatformApp_Serialization.cpp">
       <Filter>Source Files\ccOS\ccNOos\tests\testApps\ccNOos_Tests</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ccOS\tests\testApps\ccOS_Tests\ccOS_tests.cpp">
-      <Filter>Source Files\ccOS\tests\testApps\ccOS_Tests</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ccOS\tests\testApps\ccACU\ccACU.cpp">
-      <Filter>Source Files\ccOS\tests\testApps\ccACU</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ccOS\tests\testMainTemplates\Application_Platform_Main.cpp">
-      <Filter>Source Files\ccOS\tests\testMainTemplates</Filter>
     </ClCompile>
     <ClCompile Include="..\ccOS\udpComms\udp_comms.cpp">
       <Filter>Source Files\ccOS\udpComms</Filter>
@@ -291,6 +306,24 @@
     <ClCompile Include="..\ccOS\ccLibs\acs\NOAA_WMM\wmm_file.c">
       <Filter>Source Files\ccOS\ccLibs\acs\NOAA-WMM</Filter>
     </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testMainFiles\ccACU\WIN32\Application_Platform_Main.cpp">
+      <Filter>Source Files\ccOS\tests\testMainFiles\ccACU\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testMainFiles\ccOS_Tests\WIN32\Application_Platform_Main.cpp">
+      <Filter>Source Files\ccOS\tests\testMainFiles\ccOS_Tests\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\Application_Solution.cpp">
+      <Filter>Source Files\ccOS\tests\testApps\ccACU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\PlatformApp_Serialization.cpp">
+      <Filter>Source Files\ccOS\tests\testApps\ccACU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccOS_Tests\Application_Solution.cpp">
+      <Filter>Source Files\ccOS\tests\testApps\ccOS_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccOS_Tests\PlatformApp_Serialization.cpp">
+      <Filter>Source Files\ccOS\tests\testApps\ccOS_Tests</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SysTick\Application_Solution.h">
@@ -316,18 +349,6 @@
     </ClInclude>
     <ClInclude Include="..\ccOS\ccNOos\tests\testApps\ccNOos_Tests\Application_Solution.c">
       <Filter>Source Files\ccOS\ccNOos\tests\testApps\ccNOos_Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ccOS\tests\testApps\ccOS_Tests\ccOS_tests.h">
-      <Filter>Header Files\ccOS\tests\testApps\ccOS_Tests</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ccOS\tests\testApps\ccACU\ccACU.h">
-      <Filter>Header Files\ccOS\tests\testApps\ccACU</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ccOS\tests\testPlatforms\Platform_Win32.h">
-      <Filter>Header Files\ccOS\tests\testPlatforms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ccOS\tests\testMainTemplates\Application_Platform_Main.hpp">
-      <Filter>Header Files\ccOS\tests\testMainFiles</Filter>
     </ClInclude>
     <ClInclude Include="..\ccOS\udpComms\udp_comms.hpp">
       <Filter>Header Files\ccOS\udpComms</Filter>
@@ -415,6 +436,30 @@
     </ClInclude>
     <ClInclude Include="..\ccOS\ccLibs\acs\NOAA_WMM\GeomagnetismHeader.h">
       <Filter>Header Files\ccOS\ccLibs\acs\NOAA-WMM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testMainFiles\ccACU\WIN32\Application_Platform_Main.hpp">
+      <Filter>Header Files\ccOS\tests\testMainFiles\ccACU\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testMainFiles\ccOS_Tests\WIN32\Application_Platform_Main.hpp">
+      <Filter>Header Files\ccOS\tests\testMainFiles\ccOS_Tests\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\Application_Solution.hpp">
+      <Filter>Header Files\ccOS\tests\testApps\ccACU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\PlatformApp_Serialization.hpp">
+      <Filter>Header Files\ccOS\tests\testApps\ccACU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccOS_Tests\Application_Solution.hpp">
+      <Filter>Header Files\ccOS\tests\testApps\ccOS_Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccOS_Tests\PlatformApp_Serialization.hpp">
+      <Filter>Header Files\ccOS\tests\testApps\ccOS_Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\osExecutionSystem\version_config.hpp">
+      <Filter>Header Files\ccOS\osExecutionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\tests\testPlatforms\Platform_Win32.h">
+      <Filter>Header Files\ccOS\ccNOos\tests\testPlatforms</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
