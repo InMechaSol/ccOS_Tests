@@ -229,6 +229,18 @@
     <Filter Include="Header Files\ccOS\ccNOos\tests\testPlatforms">
       <UniqueIdentifier>{274b6bb8-e06f-4e1f-832f-f905306cf629}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ccOS\ccLibs\devices">
+      <UniqueIdentifier>{f3fcef72-6cdb-4528-aa94-26ef6d269538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccLibs\devices\adafruit_ft232h">
+      <UniqueIdentifier>{43c834e3-ed9f-4590-8f1d-c679c460ef15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\ccLibs\devices">
+      <UniqueIdentifier>{bd61360b-a012-43b6-a7e6-7918b318b9c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\ccLibs\devices\adafruit_ft232h">
+      <UniqueIdentifier>{76248ac8-3f7e-4f71-a1ac-2db31d53e2cf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ccOS\ccNOos\tests\testApps\SysTick\Application_Solution.cpp">
@@ -323,6 +335,9 @@
     </ClCompile>
     <ClCompile Include="..\ccOS\tests\testApps\ccOS_Tests\PlatformApp_Serialization.cpp">
       <Filter>Source Files\ccOS\tests\testApps\ccOS_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccLibs\devices\adafruit_ft232h\adafruit_ft232h.cpp">
+      <Filter>Source Files\ccOS\ccLibs\devices\adafruit_ft232h</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -460,6 +475,9 @@
     </ClInclude>
     <ClInclude Include="..\ccOS\ccNOos\tests\testPlatforms\Platform_Win32.h">
       <Filter>Header Files\ccOS\ccNOos\tests\testPlatforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccLibs\devices\adafruit_ft232h\adafruit_ft232h.hpp">
+      <Filter>Header Files\ccOS\ccLibs\devices\adafruit_ft232h</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -355,7 +355,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_ccOS; __USINGFLOATPRINTF; __USINGCONSOLEMENU; </PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ioDevice;..\ccOS\exeThread;..\ccOS\osExecutionSystem;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccACU;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\tests\testMainFiles\ccACU\WIN32</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ioDevice;..\ccOS\exeThread;..\ccOS\osExecutionSystem;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccACU;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\tests\testMainFiles\ccACU\WIN32;..\ccOS\ccLibs\devices\adafruit_ft232h</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -584,7 +584,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_ccOS; __USINGFLOATPRINTF; __USINGCONSOLEMENU; </PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ioDevice;..\ccOS\exeThread;..\ccOS\osExecutionSystem;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccACU;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\tests\testMainFiles\ccACU\WIN32</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ioDevice;..\ccOS\exeThread;..\ccOS\osExecutionSystem;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccACU;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\tests\testMainFiles\ccACU\WIN32;..\ccOS\ccLibs\devices\adafruit_ft232h</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -823,6 +823,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\ccOS\ccLibs\devices\adafruit_ft232h\adafruit_ft232h.cpp" />
     <ClCompile Include="..\ccOS\ccNOos\ccLibs\acs\ADRF6650.c" />
     <ClCompile Include="..\ccOS\ccNOos\ccLibs\acs\LTC2360.c" />
     <ClCompile Include="..\ccOS\ccNOos\ccLibs\acs\satComControl.c" />
@@ -867,6 +868,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|x64'">true</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="..\ccOS\ccLibs\devices\adafruit_ft232h\adafruit_ft232h.hpp" />
     <ClInclude Include="..\ccOS\ccNOos\computeModule\compute_module.c">
       <FileType>CppCode</FileType>
     </ClInclude>
