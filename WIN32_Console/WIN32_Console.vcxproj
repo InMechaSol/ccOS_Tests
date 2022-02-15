@@ -355,7 +355,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_ccOS; __USINGFLOATPRINTF; __USINGCONSOLEMENU; </PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ioDevice;..\ccOS\exeThread;..\ccOS\osExecutionSystem;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccACU;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\tests\testMainFiles\ccACU\WIN32;..\ccOS\ccLibs\devices\adafruit_ft232h</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\ccLibs\devices\ADRF6650;..\ccOS\ccNOos\ccLibs\devices\LTC2360;..\ccOS\ccNOos\ccLibs\devices\HMR3300;..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\ioDevice;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\osExecutionSystem;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\exeThread;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccACU;..\ccOS\tests\testMainFiles\ccACU\WIN32</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -380,7 +380,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_WIN32; __USINGFLOATPRINTF; __USINGCONSOLEMENU; </PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\ccOS\tests\testMainTemplates;..\ccOS\ccNOos\tests\testPlatforms;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ioDevice;..\ccOS\exeThread;..\ccOS\osExecutionSystem;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccOS_Tests;..\ccOS\tests\testApps\ccACU;..\ccOS\ccNOos\tests\testApps\SysTick;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\ccNOos\tests\testApps\ccNOos_Tests;..\ccOS\ccNOos\tests\testMainFiles\ccNOos_Tests\WIN32;..\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32;..\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ccOS\tests\testMainTemplates;..\ccOS\ccNOos\tests\testPlatforms;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ioDevice;..\ccOS\exeThread;..\ccOS\osExecutionSystem;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccOS_Tests;..\ccOS\tests\testApps\ccACU;..\ccOS\ccNOos\tests\testApps\SysTick;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\ccNOos\tests\testApps\ccNOos_Tests;..\ccOS\ccNOos\tests\testMainFiles\ccNOos_Tests\WIN32;..\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32;..\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32;..\ccOS\ccNOos\ccLibs\devices\ADRF6650;..\ccOS\ccNOos\ccLibs\devices\LTC2630;..\ccOS\ccNOos\ccLibs\devices\HMR3300;..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -584,7 +584,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_ccOS; __USINGFLOATPRINTF; __USINGCONSOLEMENU; </PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ioDevice;..\ccOS\exeThread;..\ccOS\osExecutionSystem;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccACU;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\tests\testMainFiles\ccACU\WIN32;..\ccOS\ccLibs\devices\adafruit_ft232h</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\ccLibs\devices\ADRF6650;..\ccOS\ccNOos\ccLibs\devices\LTC2360;..\ccOS\ccNOos\ccLibs\devices\HMR3300;..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\ioDevice;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\osExecutionSystem;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\exeThread;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccACU;..\ccOS\tests\testMainFiles\ccACU\WIN32</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -609,7 +609,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_WIN32; __USINGFLOATPRINTF; __USINGCONSOLEMENU; </PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\ccOS\tests\testMainTemplates;..\ccOS\ccNOos\tests\testPlatforms;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ioDevice;..\ccOS\exeThread;..\ccOS\osExecutionSystem;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccOS_Tests;..\ccOS\tests\testApps\ccACU;..\ccOS\ccNOos\tests\testApps\SysTick;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\ccNOos\tests\testApps\ccNOos_Tests;..\ccOS\ccNOos\tests\testMainFiles\ccNOos_Tests\WIN32;..\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32;..\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ccOS\tests\testMainTemplates;..\ccOS\ccNOos\tests\testPlatforms;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ioDevice;..\ccOS\exeThread;..\ccOS\osExecutionSystem;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccOS_Tests;..\ccOS\tests\testApps\ccACU;..\ccOS\ccNOos\tests\testApps\SysTick;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\ccNOos\tests\testApps\ccNOos_Tests;..\ccOS\ccNOos\tests\testMainFiles\ccNOos_Tests\WIN32;..\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32;..\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32;..\ccOS\ccNOos\ccLibs\devices\ADRF6650;..\ccOS\ccNOos\ccLibs\devices\LTC2630;..\ccOS\ccNOos\ccLibs\devices\HMR3300;..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -824,9 +824,11 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\ccOS\ccLibs\devices\adafruit_ft232h\adafruit_ft232h.cpp" />
-    <ClCompile Include="..\ccOS\ccNOos\ccLibs\acs\ADRF6650.c" />
-    <ClCompile Include="..\ccOS\ccNOos\ccLibs\acs\LTC2360.c" />
     <ClCompile Include="..\ccOS\ccNOos\ccLibs\acs\satComControl.c" />
+    <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\ADRF6650\ADRF6650.c" />
+    <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\HMR3300\HMR3300.c" />
+    <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\LTC2360\LTC2360.c" />
+    <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T\NEO_LEA_M8T.c" />
     <ClCompile Include="..\ccOS\ccNOos\ccLibs\mcs\motionControl.c" />
     <ClInclude Include="..\ccOS\ccLibs\acs\NOAA_WMM\EGM9615.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -869,6 +871,11 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|x64'">true</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="..\ccOS\ccLibs\devices\adafruit_ft232h\adafruit_ft232h.hpp" />
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\ADRF6650\ADRF6650.h" />
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\ADRF6650\ADRF6650_Map.h" />
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\HMR3300\HMR3300.h" />
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\LTC2360\LTC2360.h" />
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T\NEO_LEA_M8T.h" />
     <ClInclude Include="..\ccOS\ccNOos\computeModule\compute_module.c">
       <FileType>CppCode</FileType>
     </ClInclude>
@@ -1248,9 +1255,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClInclude Include="..\ccOS\ccNOos\ccLibs\acs\ADRF6650.h" />
-    <ClInclude Include="..\ccOS\ccNOos\ccLibs\acs\ADRF6650_Map.h" />
-    <ClInclude Include="..\ccOS\ccNOos\ccLibs\acs\LTC2360.h" />
     <ClInclude Include="..\ccOS\ccNOos\ccLibs\acs\satComControl.h" />
     <ClInclude Include="..\ccOS\ccNOos\ccLibs\mcs\motionControl.h" />
     <ClInclude Include="..\ccOS\ccNOos\computeModule\compute_module.h" />
