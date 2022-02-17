@@ -353,9 +353,9 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>PLATFORM_ccOS; __USINGFLOATPRINTF; __USINGCONSOLEMENU; </PreprocessorDefinitions>
+      <PreprocessorDefinitions>PLATFORM_ccOS; </PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\ccLibs\devices\ADRF6650;..\ccOS\ccNOos\ccLibs\devices\LTC2360;..\ccOS\ccNOos\ccLibs\devices\HMR3300;..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\ioDevice;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\osExecutionSystem;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\exeThread;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccACU;..\ccOS\tests\testMainFiles\ccACU\WIN32</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\ccLibs\devices\ADRF6650;..\ccOS\ccNOos\ccLibs\devices\LTC2360;..\ccOS\ccNOos\ccLibs\devices\HMR3300;..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\ioDevice;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\osExecutionSystem;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\exeThread;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccACU;..\ccOS\tests\testApps\ccACU\apiModules\CGI_ServerClass;..\ccOS\tests\testApps\ccACU\apiModules\SNMP_AgentsServer;..\ccOS\tests\testApps\ccACU\apiModules\UI_ServerClass;..\ccOS\tests\testApps\ccACU\deviceModules\APT_WMM;..\ccOS\tests\testApps\ccACU\deviceModules\ManagedSwitch;..\ccOS\tests\testApps\ccACU\deviceModules\Modem;..\ccOS\tests\testApps\ccACU\deviceModules\TPM;..\ccOS\tests\testApps\ccACU\deviceModules\TxRx;..\ccOS\tests\testMainFiles\ccACU\WIN32</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -380,7 +380,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_WIN32; __USINGFLOATPRINTF; __USINGCONSOLEMENU; </PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\ccOS\tests\testMainTemplates;..\ccOS\ccNOos\tests\testPlatforms;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ioDevice;..\ccOS\exeThread;..\ccOS\osExecutionSystem;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccOS_Tests;..\ccOS\tests\testApps\ccACU;..\ccOS\ccNOos\tests\testApps\SysTick;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\ccNOos\tests\testApps\ccNOos_Tests;..\ccOS\ccNOos\tests\testMainFiles\ccNOos_Tests\WIN32;..\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32;..\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32;..\ccOS\ccNOos\ccLibs\devices\ADRF6650;..\ccOS\ccNOos\ccLibs\devices\LTC2630;..\ccOS\ccNOos\ccLibs\devices\HMR3300;..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ccLibs\devices\ADRF6650;..\ccOS\ccNOos\ccLibs\devices\LTC2360;..\ccOS\ccNOos\ccLibs\devices\HMR3300;..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\ioDevice;..\ccOS\ccNOos\tests\testPlatforms;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -582,9 +582,9 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>PLATFORM_ccOS; __USINGFLOATPRINTF; __USINGCONSOLEMENU; </PreprocessorDefinitions>
+      <PreprocessorDefinitions>PLATFORM_ccOS; </PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\ccLibs\devices\ADRF6650;..\ccOS\ccNOos\ccLibs\devices\LTC2360;..\ccOS\ccNOos\ccLibs\devices\HMR3300;..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\ioDevice;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\osExecutionSystem;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\exeThread;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccACU;..\ccOS\tests\testMainFiles\ccACU\WIN32</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\ccLibs\devices\ADRF6650;..\ccOS\ccNOos\ccLibs\devices\LTC2360;..\ccOS\ccNOos\ccLibs\devices\HMR3300;..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\ioDevice;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\osExecutionSystem;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\exeThread;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccACU;..\ccOS\tests\testApps\ccACU\apiModules\CGI_ServerClass;..\ccOS\tests\testApps\ccACU\apiModules\SNMP_AgentsServer;..\ccOS\tests\testApps\ccACU\apiModules\UI_ServerClass;..\ccOS\tests\testApps\ccACU\deviceModules\APT_WMM;..\ccOS\tests\testApps\ccACU\deviceModules\ManagedSwitch;..\ccOS\tests\testApps\ccACU\deviceModules\Modem;..\ccOS\tests\testApps\ccACU\deviceModules\TPM;..\ccOS\tests\testApps\ccACU\deviceModules\TxRx;..\ccOS\tests\testMainFiles\ccACU\WIN32</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -609,7 +609,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_WIN32; __USINGFLOATPRINTF; __USINGCONSOLEMENU; </PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\ccOS\tests\testMainTemplates;..\ccOS\ccNOos\tests\testPlatforms;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ioDevice;..\ccOS\exeThread;..\ccOS\osExecutionSystem;..\ccOS\serialComms;..\ccOS\stdIOExtProc;..\ccOS\tcpComms;..\ccOS\udpComms;..\ccOS\tests\testApps\ccOS_Tests;..\ccOS\tests\testApps\ccACU;..\ccOS\ccNOos\tests\testApps\SysTick;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\ccNOos\tests\testApps\ccNOos_Tests;..\ccOS\ccNOos\tests\testMainFiles\ccNOos_Tests\WIN32;..\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32;..\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32;..\ccOS\ccNOos\ccLibs\devices\ADRF6650;..\ccOS\ccNOos\ccLibs\devices\LTC2630;..\ccOS\ccNOos\ccLibs\devices\HMR3300;..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ccLibs\devices\ADRF6650;..\ccOS\ccNOos\ccLibs\devices\LTC2360;..\ccOS\ccNOos\ccLibs\devices\HMR3300;..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\ioDevice;..\ccOS\ccNOos\tests\testPlatforms;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -823,7 +823,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\ccOS\ccLibs\devices\adafruit_ft232h\adafruit_ft232h.cpp" />
+    <ClCompile Include="..\ccOS\ccLibs\devices\adafruit_ft232h\adafruit_ft232h.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\ccOS\ccNOos\ccLibs\acs\satComControl.c" />
     <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\ADRF6650\ADRF6650.c" />
     <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\HMR3300\HMR3300.c" />
@@ -870,7 +873,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|x64'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="..\ccOS\ccLibs\devices\adafruit_ft232h\adafruit_ft232h.hpp" />
+    <ClInclude Include="..\ccOS\ccLibs\devices\adafruit_ft232h\adafruit_ft232h.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\ADRF6650\ADRF6650.h" />
     <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\ADRF6650\ADRF6650_Map.h" />
     <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\HMR3300\HMR3300.h" />
@@ -1103,7 +1109,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_Tests|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_ccNOosTests|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
@@ -1112,10 +1118,22 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_Tests|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_ccNOosTests|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\ccOS\tests\testApps\ccACU\Application_Solution.cpp">
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\apiModules\CGI_ServerClass\CGIServerClass.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\apiModules\SNMP_AgentsServer\SNMPAgentsServer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\apiModules\UI_ServerClass\UIServerClass.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\osApp_Solution.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_Tests|Win32'">true</ExcludedFromBuild>
@@ -1135,7 +1153,27 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\ccOS\tests\testApps\ccACU\PlatformApp_Serialization.cpp">
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\deviceModules\APT_WMM\APT_WMM_Class.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\deviceModules\ManagedSwitch\ManagedSwitchClass.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\deviceModules\Modem\ModemClass.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\deviceModules\TPM\TPM_Class.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\deviceModules\TxRx\TxRx_Class.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\osApp_Serialization.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_Tests|Win32'">true</ExcludedFromBuild>
@@ -1243,7 +1281,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_Tests|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_ccNOosTests|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
@@ -1252,7 +1290,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_Tests|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_ccNOosTests|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClInclude Include="..\ccOS\ccNOos\ccLibs\acs\satComControl.h" />
@@ -1740,7 +1778,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_Tests|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_ccNOosTests|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
@@ -1749,10 +1787,22 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_Tests|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_ccNOosTests|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|x64'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="..\ccOS\tests\testApps\ccACU\Application_Solution.hpp">
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\apiModules\CGI_ServerClass\CGIServerClass.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\apiModules\SNMP_AgentsServer\SNMPAgentsServer.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\apiModules\UI_ServerClass\UIServerClass.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\osApp_Solution.hpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_Tests|Win32'">true</ExcludedFromBuild>
@@ -1772,7 +1822,27 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|x64'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="..\ccOS\tests\testApps\ccACU\PlatformApp_Serialization.hpp">
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\deviceModules\APT_WMM\APT_WMM_Class.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\deviceModules\ManagedSwitch\ManagedSwitchClass.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\deviceModules\Modem\ModemClass.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\deviceModules\TPM\TPM_Class.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\deviceModules\TxRx\TxRx_Class.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\osApp_Serialization.hpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_Tests|Win32'">true</ExcludedFromBuild>
@@ -1880,7 +1950,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_Tests|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_ccNOosTests|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>
@@ -1889,7 +1959,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_Tests|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_ccNOosTests|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|x64'">true</ExcludedFromBuild>
     </ClInclude>
   </ItemGroup>

@@ -271,6 +271,66 @@
     <Filter Include="Source Files\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T">
       <UniqueIdentifier>{49519a8b-6dd4-49cf-8128-39154514df16}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\ccOS\tests\testApps\ccACU\deviceModules">
+      <UniqueIdentifier>{45202574-92d0-4c05-91d3-dbace417d206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\tests\testApps\ccACU\apiModules">
+      <UniqueIdentifier>{6dbea5d8-f154-4e35-960e-2a28d7cf1c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\tests\testApps\ccACU\apiModules\CGI_ServerClass">
+      <UniqueIdentifier>{d7d8819a-3c56-4869-8c1b-bb2b045fa2d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\tests\testApps\ccACU\apiModules\SNMP_AgentsServer">
+      <UniqueIdentifier>{2c33ea27-2735-4e6e-be67-5ec8c049163d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\tests\testApps\ccACU\apiModules\UI_ServerClass">
+      <UniqueIdentifier>{e8659ed4-0919-4e59-a96d-96924df334db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\tests\testApps\ccACU\deviceModules\APT_WMM">
+      <UniqueIdentifier>{217fed65-3151-4209-acd8-dab5b0870917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\tests\testApps\ccACU\deviceModules\ManagedSwitch">
+      <UniqueIdentifier>{98b49242-010e-4713-9150-051e25b7bc5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\tests\testApps\ccACU\deviceModules\Modem">
+      <UniqueIdentifier>{1e6f5831-f4b0-4e1b-a3d3-722d064ade91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\tests\testApps\ccACU\deviceModules\TPM">
+      <UniqueIdentifier>{6d137820-8fd9-4d06-8c7c-27aa621ddf20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\tests\testApps\ccACU\deviceModules\TxRx">
+      <UniqueIdentifier>{59cd57d0-bf7d-499e-a384-227506dc6af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\tests\testApps\ccACU\apiModules">
+      <UniqueIdentifier>{94a11711-0a86-4ea9-a296-3a1e23430667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\tests\testApps\ccACU\deviceModules">
+      <UniqueIdentifier>{6434ba93-4ee6-4ead-a2bf-6ff2aeb2cd07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\tests\testApps\ccACU\apiModules\CGI_ServerClass">
+      <UniqueIdentifier>{22cf540d-ed20-4b0c-84d6-d622e798243d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\tests\testApps\ccACU\apiModules\SNMP_AgentsServer">
+      <UniqueIdentifier>{5d9f79d2-c939-4bae-8ed2-4ed2883b1ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\tests\testApps\ccACU\apiModules\UI_ServerClass">
+      <UniqueIdentifier>{bdcc3d7a-fe33-4336-9670-532e5889d261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\tests\testApps\ccACU\deviceModules\APT_WMM">
+      <UniqueIdentifier>{4c063ba8-0448-4345-8431-0b1dad2849da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\tests\testApps\ccACU\deviceModules\ManagedSwitch">
+      <UniqueIdentifier>{c610ab8c-6753-4b4b-97b2-35532894c584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\tests\testApps\ccACU\deviceModules\Modem">
+      <UniqueIdentifier>{c20d5cc4-a82e-4f8a-b766-bfd9d0818485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\tests\testApps\ccACU\deviceModules\TPM">
+      <UniqueIdentifier>{b1289a23-49c3-494f-b4bf-315171b63437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\tests\testApps\ccACU\deviceModules\TxRx">
+      <UniqueIdentifier>{760bc181-735e-45ad-abb4-0dc6d4109df6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ccOS\ccNOos\tests\testApps\SysTick\Application_Solution.cpp">
@@ -348,10 +408,10 @@
     <ClCompile Include="..\ccOS\tests\testMainFiles\ccOS_Tests\WIN32\Application_Platform_Main.cpp">
       <Filter>Source Files\ccOS\tests\testMainFiles\ccOS_Tests\WIN32</Filter>
     </ClCompile>
-    <ClCompile Include="..\ccOS\tests\testApps\ccACU\Application_Solution.cpp">
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\osApp_Solution.cpp">
       <Filter>Source Files\ccOS\tests\testApps\ccACU</Filter>
     </ClCompile>
-    <ClCompile Include="..\ccOS\tests\testApps\ccACU\PlatformApp_Serialization.cpp">
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\osApp_Serialization.cpp">
       <Filter>Source Files\ccOS\tests\testApps\ccACU</Filter>
     </ClCompile>
     <ClCompile Include="..\ccOS\tests\testApps\ccOS_Tests\Application_Solution.cpp">
@@ -374,6 +434,30 @@
     </ClCompile>
     <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\LTC2360\LTC2360.c">
       <Filter>Source Files\ccOS\ccNOos\ccLibs\devices\LTC2360</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\apiModules\CGI_ServerClass\CGIServerClass.cpp">
+      <Filter>Source Files\ccOS\tests\testApps\ccACU\apiModules\CGI_ServerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\apiModules\UI_ServerClass\UIServerClass.cpp">
+      <Filter>Source Files\ccOS\tests\testApps\ccACU\apiModules\UI_ServerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\apiModules\SNMP_AgentsServer\SNMPAgentsServer.cpp">
+      <Filter>Source Files\ccOS\tests\testApps\ccACU\apiModules\SNMP_AgentsServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\deviceModules\APT_WMM\APT_WMM_Class.cpp">
+      <Filter>Source Files\ccOS\tests\testApps\ccACU\deviceModules\APT_WMM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\deviceModules\ManagedSwitch\ManagedSwitchClass.cpp">
+      <Filter>Source Files\ccOS\tests\testApps\ccACU\deviceModules\ManagedSwitch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\deviceModules\Modem\ModemClass.cpp">
+      <Filter>Source Files\ccOS\tests\testApps\ccACU\deviceModules\Modem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\deviceModules\TPM\TPM_Class.cpp">
+      <Filter>Source Files\ccOS\tests\testApps\ccACU\deviceModules\TPM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testApps\ccACU\deviceModules\TxRx\TxRx_Class.cpp">
+      <Filter>Source Files\ccOS\tests\testApps\ccACU\deviceModules\TxRx</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -485,10 +569,10 @@
     <ClInclude Include="..\ccOS\tests\testMainFiles\ccOS_Tests\WIN32\Application_Platform_Main.hpp">
       <Filter>Header Files\ccOS\tests\testMainFiles\ccOS_Tests\WIN32</Filter>
     </ClInclude>
-    <ClInclude Include="..\ccOS\tests\testApps\ccACU\Application_Solution.hpp">
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\osApp_Solution.hpp">
       <Filter>Header Files\ccOS\tests\testApps\ccACU</Filter>
     </ClInclude>
-    <ClInclude Include="..\ccOS\tests\testApps\ccACU\PlatformApp_Serialization.hpp">
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\osApp_Serialization.hpp">
       <Filter>Header Files\ccOS\tests\testApps\ccACU</Filter>
     </ClInclude>
     <ClInclude Include="..\ccOS\tests\testApps\ccOS_Tests\Application_Solution.hpp">
@@ -520,6 +604,30 @@
     </ClInclude>
     <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\LTC2360\LTC2360.h">
       <Filter>Header Files\ccOS\ccNOos\ccLibs\devices\LTC2360</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\apiModules\CGI_ServerClass\CGIServerClass.hpp">
+      <Filter>Header Files\ccOS\tests\testApps\ccACU\apiModules\CGI_ServerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\apiModules\UI_ServerClass\UIServerClass.hpp">
+      <Filter>Header Files\ccOS\tests\testApps\ccACU\apiModules\UI_ServerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\apiModules\SNMP_AgentsServer\SNMPAgentsServer.hpp">
+      <Filter>Header Files\ccOS\tests\testApps\ccACU\apiModules\SNMP_AgentsServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\deviceModules\APT_WMM\APT_WMM_Class.hpp">
+      <Filter>Header Files\ccOS\tests\testApps\ccACU\deviceModules\APT_WMM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\deviceModules\ManagedSwitch\ManagedSwitchClass.hpp">
+      <Filter>Header Files\ccOS\tests\testApps\ccACU\deviceModules\ManagedSwitch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\deviceModules\Modem\ModemClass.hpp">
+      <Filter>Header Files\ccOS\tests\testApps\ccACU\deviceModules\Modem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\deviceModules\TPM\TPM_Class.hpp">
+      <Filter>Header Files\ccOS\tests\testApps\ccACU\deviceModules\TPM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tests\testApps\ccACU\deviceModules\TxRx\TxRx_Class.hpp">
+      <Filter>Header Files\ccOS\tests\testApps\ccACU\deviceModules\TxRx</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
