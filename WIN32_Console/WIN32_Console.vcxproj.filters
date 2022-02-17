@@ -399,9 +399,6 @@
     <ClCompile Include="..\ccOS\ccLibs\acs\NOAA_WMM\GeomagnetismLibrary.c">
       <Filter>Source Files\ccOS\ccLibs\acs\NOAA-WMM</Filter>
     </ClCompile>
-    <ClCompile Include="..\ccOS\ccLibs\acs\NOAA_WMM\wmm_file.c">
-      <Filter>Source Files\ccOS\ccLibs\acs\NOAA-WMM</Filter>
-    </ClCompile>
     <ClCompile Include="..\ccOS\tests\testMainFiles\ccACU\WIN32\Application_Platform_Main.cpp">
       <Filter>Source Files\ccOS\tests\testMainFiles\ccACU\WIN32</Filter>
     </ClCompile>
