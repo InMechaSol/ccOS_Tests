@@ -19,9 +19,13 @@ INCLUDEPATH += \
     ../ccOS/ccNOos/computeModule \
     ../ccOS/ccNOos/consoleMenu \    
     ../ccOS/ccNOos/ioDevice \
-    ../ccOS/ccNOos/tests/testPlatforms
+    ../ccOS/ccNOos/tests/testPlatforms \
+    ../ccOS/ccLibs/devices/adafruit_ft232h \
+    ../ccOS/serialComms
 
 SOURCES += \
+    ../ccOS/ccLibs/devices/adafruit_ft232h/adafruit_ft232h.c \
+    ../ccOS/serialComms/serial_comms.c \
     ../ccOS/ccNOos/ccLibs/devices/ADRF6650/ADRF6650.c \
     ../ccOS/ccNOos/ccLibs/devices/LTC2360/LTC2360.c \
     ../ccOS/ccNOos/ccLibs/devices/HMR3300/HMR3300.c \
@@ -34,6 +38,8 @@ SOURCES += \
     ../ccOS/ccNOos/ioDevice/io_device.c
 
 HEADERS += \
+    ../ccOS/ccLibs/devices/adafruit_ft232h/adafruit_ft232h.h \
+    ../ccOS/serialComms/serial_comms.h \
     ../ccOS/ccNOos/ccLibs/devices/ADRF6650/ADRF6650_Map.h \
     ../ccOS/ccNOos/ccLibs/devices/ADRF6650/ADRF6650.h \
     ../ccOS/ccNOos/ccLibs/devices/LTC2360/LTC2360.h \
