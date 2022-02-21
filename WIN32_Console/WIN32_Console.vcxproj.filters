@@ -369,12 +369,6 @@
     <ClCompile Include="..\ccOS\exeThread\exe_thread.cpp">
       <Filter>Source Files\ccOS\exeThread</Filter>
     </ClCompile>
-    <ClCompile Include="..\ccOS\ccNOos\ccLibs\acs\satComControl.c">
-      <Filter>Source Files\ccOS\ccNOos\ccLibs\acs</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ccOS\ccNOos\ccLibs\mcs\motionControl.c">
-      <Filter>Source Files\ccOS\ccNOos\ccLibs\mcs</Filter>
-    </ClCompile>
     <ClCompile Include="..\ccOS\ccNOos\consoleMenu\console_menu_class.cpp">
       <Filter>Source Files\ccOS\ccNOos\consoleMenu</Filter>
     </ClCompile>
@@ -420,18 +414,6 @@
     <ClCompile Include="..\ccOS\ccLibs\devices\adafruit_ft232h\adafruit_ft232h.cpp">
       <Filter>Source Files\ccOS\ccLibs\devices\adafruit_ft232h</Filter>
     </ClCompile>
-    <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T\NEO_LEA_M8T.c">
-      <Filter>Source Files\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\HMR3300\HMR3300.c">
-      <Filter>Source Files\ccOS\ccNOos\ccLibs\devices\HMR3300</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\ADRF6650\ADRF6650.c">
-      <Filter>Source Files\ccOS\ccNOos\ccLibs\devices\ADRF6650</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\LTC2360\LTC2360.c">
-      <Filter>Source Files\ccOS\ccNOos\ccLibs\devices\LTC2360</Filter>
-    </ClCompile>
     <ClCompile Include="..\ccOS\tests\testApps\ccACU\apiModules\CGI_ServerClass\CGIServerClass.cpp">
       <Filter>Source Files\ccOS\tests\testApps\ccACU\apiModules\CGI_ServerClass</Filter>
     </ClCompile>
@@ -455,6 +437,24 @@
     </ClCompile>
     <ClCompile Include="..\ccOS\tests\testApps\ccACU\deviceModules\TxRx\TxRx_Class.cpp">
       <Filter>Source Files\ccOS\tests\testApps\ccACU\deviceModules\TxRx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\ccLibs\acs\satComControl.cpp">
+      <Filter>Source Files\ccOS\ccNOos\ccLibs\acs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\ADRF6650\ADRF6650.cpp">
+      <Filter>Source Files\ccOS\ccNOos\ccLibs\devices\ADRF6650</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\HMR3300\HMR3300.cpp">
+      <Filter>Source Files\ccOS\ccNOos\ccLibs\devices\HMR3300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\LTC2360\LTC2360.cpp">
+      <Filter>Source Files\ccOS\ccNOos\ccLibs\devices\LTC2360</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T\NEO_LEA_M8T.cpp">
+      <Filter>Source Files\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\ccLibs\mcs\motionControl.cpp">
+      <Filter>Source Files\ccOS\ccNOos\ccLibs\mcs</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -490,9 +490,6 @@
     </ClInclude>
     <ClInclude Include="..\ccOS\stdIOExtProc\stdio_extproc.hpp">
       <Filter>Header Files\ccOS\stdIOExtProc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ccOS\serialComms\serial_comms.hpp">
-      <Filter>Header Files\ccOS\serialComms</Filter>
     </ClInclude>
     <ClInclude Include="..\ccOS\osExecutionSystem\os_execution_system.hpp">
       <Filter>Header Files\ccOS\osExecutionSystem</Filter>
@@ -584,9 +581,6 @@
     <ClInclude Include="..\ccOS\ccNOos\tests\testPlatforms\Platform_Win32.h">
       <Filter>Header Files\ccOS\ccNOos\tests\testPlatforms</Filter>
     </ClInclude>
-    <ClInclude Include="..\ccOS\ccLibs\devices\adafruit_ft232h\adafruit_ft232h.hpp">
-      <Filter>Header Files\ccOS\ccLibs\devices\adafruit_ft232h</Filter>
-    </ClInclude>
     <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\HMR3300\HMR3300.h">
       <Filter>Header Files\ccOS\ccNOos\ccLibs\devices\HMR3300</Filter>
     </ClInclude>
@@ -625,6 +619,36 @@
     </ClInclude>
     <ClInclude Include="..\ccOS\tests\testApps\ccACU\deviceModules\TxRx\TxRx_Class.hpp">
       <Filter>Header Files\ccOS\tests\testApps\ccACU\deviceModules\TxRx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\serialComms\serial_comms.h">
+      <Filter>Header Files\ccOS\serialComms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccLibs\devices\adafruit_ft232h\adafruit_ft232h.h">
+      <Filter>Header Files\ccOS\ccLibs\devices\adafruit_ft232h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccLibs\devices\adafruit_ft232h\adafruit_ft232h.c">
+      <Filter>Source Files\ccOS\ccLibs\devices\adafruit_ft232h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\acs\satComControl.c">
+      <Filter>Source Files\ccOS\ccNOos\ccLibs\acs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\ADRF6650\ADRF6650.c">
+      <Filter>Source Files\ccOS\ccNOos\ccLibs\devices\ADRF6650</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\HMR3300\HMR3300.c">
+      <Filter>Source Files\ccOS\ccNOos\ccLibs\devices\HMR3300</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\LTC2360\LTC2360.c">
+      <Filter>Source Files\ccOS\ccNOos\ccLibs\devices\LTC2360</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T\NEO_LEA_M8T.c">
+      <Filter>Source Files\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\serialComms\serial_comms.c">
+      <Filter>Source Files\ccOS\serialComms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\mcs\motionControl.c">
+      <Filter>Source Files\ccOS\ccNOos\ccLibs\mcs</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
