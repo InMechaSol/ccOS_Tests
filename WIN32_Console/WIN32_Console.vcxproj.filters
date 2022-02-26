@@ -331,6 +331,39 @@
     <Filter Include="Source Files\ccOS\tests\testApps\ccACU\deviceModules\TxRx">
       <UniqueIdentifier>{760bc181-735e-45ad-abb4-0dc6d4109df6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\ccOS\ccNOos\tests\testApps\SatComACS\apiModules">
+      <UniqueIdentifier>{90ba1566-5a54-47ba-9dbd-0a0af6ad2ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules">
+      <UniqueIdentifier>{2ad70544-9787-4b07-aec9-8e9e7231fd4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\APT_WMM">
+      <UniqueIdentifier>{c699427b-f8e4-4885-a2ab-eddd8cbec6d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TPM">
+      <UniqueIdentifier>{d595049f-a935-4994-88ed-0ae18016c6c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TxRx">
+      <UniqueIdentifier>{243cd593-6b65-492b-8dc0-8928b8c89a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules">
+      <UniqueIdentifier>{55883c89-25b9-49ee-a524-4b7a8a002ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\APT_WMM">
+      <UniqueIdentifier>{a6cd9cdb-de0a-4a4c-94de-761ac15e0277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TPM">
+      <UniqueIdentifier>{88fa4df7-cb31-43ec-9eec-ccbe20c3a86e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TxRx">
+      <UniqueIdentifier>{17cae4ca-8880-464f-8f9e-c32aeeabea6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\ConsoleMenu">
+      <UniqueIdentifier>{8293b156-b74e-4f12-9a75-8b4a4db41587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\LCDKeypad">
+      <UniqueIdentifier>{a2b7e021-24e0-438c-af46-7425df9ea4ef}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ccOS\ccNOos\tests\testApps\SysTick\Application_Solution.cpp">
@@ -455,6 +488,15 @@
     </ClCompile>
     <ClCompile Include="..\ccOS\ccNOos\ccLibs\mcs\motionControl.cpp">
       <Filter>Source Files\ccOS\ccNOos\ccLibs\mcs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\APT_WMM\APTmodule.cpp">
+      <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\APT_WMM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TPM\TPMmodule.cpp">
+      <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TPM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TxRx\TxRxmodule.cpp">
+      <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TxRx</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -649,6 +691,24 @@
     </ClInclude>
     <ClInclude Include="..\ccOS\ccNOos\ccLibs\mcs\motionControl.c">
       <Filter>Source Files\ccOS\ccNOos\ccLibs\mcs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\APT_WMM\APTmodule.h">
+      <Filter>Header Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\APT_WMM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\APT_WMM\APTmodule.c">
+      <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\APT_WMM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TPM\TPMmodule.c">
+      <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TPM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TPM\TPMmodule.h">
+      <Filter>Header Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TPM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TxRx\TxRxmodule.h">
+      <Filter>Header Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TxRx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TxRx\TxRxmodule.c">
+      <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TxRx</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
