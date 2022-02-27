@@ -364,6 +364,15 @@
     <Filter Include="Header Files\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\LCDKeypad">
       <UniqueIdentifier>{a2b7e021-24e0-438c-af46-7425df9ea4ef}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ccOS\ccNOos\tests\testApps\SatComACS\apiModules">
+      <UniqueIdentifier>{66c1b86c-2124-41e5-a070-1b654c164e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\ConsoleMenu">
+      <UniqueIdentifier>{b5bf2544-3ab4-4882-9602-f48d25164a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\LCDKeyPad">
+      <UniqueIdentifier>{a2eefc15-13ce-4432-9499-1b5604b71c1c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ccOS\ccNOos\tests\testApps\SysTick\Application_Solution.cpp">
@@ -497,6 +506,12 @@
     </ClCompile>
     <ClCompile Include="..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TxRx\TxRxmodule.cpp">
       <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TxRx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\ConsoleMenu\MenuAPI.cpp">
+      <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\ConsoleMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\LCDKeyPad\LCDapi.cpp">
+      <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\LCDKeyPad</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -709,6 +724,18 @@
     </ClInclude>
     <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TxRx\TxRxmodule.c">
       <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TxRx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\LCDKeyPad\LCDapi.h">
+      <Filter>Header Files\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\LCDKeypad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\ConsoleMenu\MenuAPI.h">
+      <Filter>Header Files\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\ConsoleMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\LCDKeyPad\LCDapi.c">
+      <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\LCDKeyPad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\ConsoleMenu\MenuAPI.c">
+      <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\ConsoleMenu</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
