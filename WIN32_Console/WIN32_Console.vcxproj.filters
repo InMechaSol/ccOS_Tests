@@ -587,9 +587,6 @@
     <ClInclude Include="..\ccOS\ccNOos\ioDevice\io_device.c">
       <Filter>Source Files\ccOS\ccNOos\ioDevice</Filter>
     </ClInclude>
-    <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SatComACS\Application_Solution.c">
-      <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS</Filter>
-    </ClInclude>
     <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SysTick\PlatformApp_Serialization.c">
       <Filter>Source Files\ccOS\ccNOos\tests\testApps\SysTick</Filter>
     </ClInclude>
@@ -736,6 +733,9 @@
     </ClInclude>
     <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\ConsoleMenu\MenuAPI.c">
       <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\ConsoleMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SatComACS\Application_Solution.c">
+      <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
