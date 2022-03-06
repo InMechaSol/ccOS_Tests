@@ -13,6 +13,8 @@ INCLUDEPATH += \
     ../ccOS/ccNOos/ccLibs/devices/ADRF6650 \
     ../ccOS/ccNOos/ccLibs/devices/LTC2360 \
     ../ccOS/ccNOos/ccLibs/devices/HMR3300 \
+    ../ccOS/ccNOos/ccLibs/devices/HMC1119 \
+    ../ccOS/ccNOos/ccLibs/devices/MCP23017 \
     ../ccOS/ccNOos/ccLibs/devices/NEO_LEA_M8T \
     ../ccOS/ccNOos/ccLibs/acs \
     ../ccOS/ccNOos/ccLibs/mcs \
@@ -30,6 +32,8 @@ SOURCES += \
     ../ccOS/ccNOos/ccLibs/devices/LTC2360/LTC2360.c \
     ../ccOS/ccNOos/ccLibs/devices/HMR3300/HMR3300.c \
     ../ccOS/ccNOos/ccLibs/devices/NEO_LEA_M8T/NEO_LEA_M8T.c \
+    ../ccOS/ccNOos/ccLibs/devices/HMC1119/HMC1119.c \
+    ../ccOS/ccNOos/ccLibs/devices/MCP23017/MCP23017.c \
     ../ccOS/ccNOos/ccLibs/acs/satComControl.c \
     ../ccOS/ccNOos/ccLibs/mcs/motionControl.c \
     ../ccOS/ccNOos/computeModule/compute_module.c \
@@ -45,6 +49,8 @@ HEADERS += \
     ../ccOS/ccNOos/ccLibs/devices/LTC2360/LTC2360.h \
     ../ccOS/ccNOos/ccLibs/devices/HMR3300/HMR3300.h \
     ../ccOS/ccNOos/ccLibs/devices/NEO_LEA_M8T/NEO_LEA_M8T.h \
+    ../ccOS/ccNOos/ccLibs/devices/HMC1119/HMC1119.h \
+    ../ccOS/ccNOos/ccLibs/devices/MCP23017/MCP23017.h \
     ../ccOS/ccNOos/ccLibs/acs/satComControl.h \
     ../ccOS/ccNOos/ccLibs/mcs/motionControl.h \
     ../ccOS/ccNOos/computeModule/compute_module.h \

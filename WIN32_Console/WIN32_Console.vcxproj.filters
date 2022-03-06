@@ -373,6 +373,12 @@
     <Filter Include="Source Files\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\LCDKeyPad">
       <UniqueIdentifier>{a2eefc15-13ce-4432-9499-1b5604b71c1c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\ccOS\ccNOos\ccLibs\devices\HMC1119">
+      <UniqueIdentifier>{365cb08d-e2fa-4e1a-8a41-2a1950014d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\ccNOos\ccLibs\devices\MCP23017">
+      <UniqueIdentifier>{af8d721b-9ef3-4adc-8dfc-f4774bb9f49f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ccOS\ccNOos\tests\testApps\SysTick\Application_Solution.cpp">
@@ -512,6 +518,12 @@
     </ClCompile>
     <ClCompile Include="..\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\LCDKeyPad\LCDapi.cpp">
       <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\LCDKeyPad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\HMC1119\HMC1119.cpp">
+      <Filter>Header Files\ccOS\ccNOos\ccLibs\devices\HMC1119</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\MCP23017\MCP23017.cpp">
+      <Filter>Header Files\ccOS\ccNOos\ccLibs\devices\MCP23017</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -736,6 +748,18 @@
     </ClInclude>
     <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SatComACS\Application_Solution.c">
       <Filter>Source Files\ccOS\ccNOos\tests\testApps\SatComACS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\HMC1119\HMC1119.h">
+      <Filter>Header Files\ccOS\ccNOos\ccLibs\devices\HMC1119</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\MCP23017\MCP23017.h">
+      <Filter>Header Files\ccOS\ccNOos\ccLibs\devices\MCP23017</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\HMC1119\HMC1119.c">
+      <Filter>Header Files\ccOS\ccNOos\ccLibs\devices\HMC1119</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\MCP23017\MCP23017.c">
+      <Filter>Header Files\ccOS\ccNOos\ccLibs\devices\MCP23017</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

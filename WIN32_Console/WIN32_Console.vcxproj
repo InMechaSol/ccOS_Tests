@@ -380,7 +380,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_WIN32; __USINGFLOATPRINTF; __USINGCONSOLEMENU; </PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ccLibs\devices\ADRF6650;..\ccOS\ccNOos\ccLibs\devices\LTC2360;..\ccOS\ccNOos\ccLibs\devices\HMR3300;..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\ioDevice;..\ccOS\ccNOos\tests\testPlatforms;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\serialComms;..\ccOS\osExecutionSystem;..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\APT_WMM;..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TPM;..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TxRx;..\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\ConsoleMenu;..\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\LCDKeyPad</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ccLibs\devices\ADRF6650;..\ccOS\ccNOos\ccLibs\devices\LTC2360;..\ccOS\ccNOos\ccLibs\devices\HMR3300;..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\ioDevice;..\ccOS\ccNOos\tests\testPlatforms;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\serialComms;..\ccOS\osExecutionSystem;..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\APT_WMM;..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TPM;..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TxRx;..\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\ConsoleMenu;..\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\LCDKeyPad;..\ccOS\ccNOos\ccLibs\devices\HMC1119;..\ccOS\ccNOos\ccLibs\devices\MCP23017</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -609,7 +609,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_WIN32; __USINGFLOATPRINTF; __USINGCONSOLEMENU; </PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ccLibs\devices\ADRF6650;..\ccOS\ccNOos\ccLibs\devices\LTC2360;..\ccOS\ccNOos\ccLibs\devices\HMR3300;..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\ioDevice;..\ccOS\ccNOos\tests\testPlatforms;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\serialComms;..\ccOS\osExecutionSystem;..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\APT_WMM;..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TPM;..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TxRx;..\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\ConsoleMenu;..\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\LCDKeyPad</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\ccLibs\devices\ADRF6650;..\ccOS\ccNOos\ccLibs\devices\LTC2360;..\ccOS\ccNOos\ccLibs\devices\HMR3300;..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T;..\ccOS\ccNOos\ccLibs\mcs;..\ccOS\ccNOos\ccLibs\acs;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\ioDevice;..\ccOS\ccNOos\tests\testPlatforms;..\ccOS\ccNOos\tests\testApps\SatComACS;..\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\serialComms;..\ccOS\osExecutionSystem;..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\APT_WMM;..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TPM;..\ccOS\ccNOos\tests\testApps\SatComACS\deviceModules\TxRx;..\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\ConsoleMenu;..\ccOS\ccNOos\tests\testApps\SatComACS\apiModules\LCDKeyPad;..\ccOS\ccNOos\ccLibs\devices\HMC1119;..\ccOS\ccNOos\ccLibs\devices\MCP23017</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -822,17 +822,27 @@
       <FileType>CppCode</FileType>
     </ClInclude>
     <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\ADRF6650\ADRF6650.cpp" />
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\HMC1119\HMC1119.h" />
     <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\HMR3300\HMR3300.c">
       <FileType>CppCode</FileType>
     </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\HMC1119\HMC1119.c">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\HMC1119\HMC1119.cpp" />
     <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\HMR3300\HMR3300.cpp" />
     <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\LTC2360\LTC2360.c">
       <FileType>CppCode</FileType>
     </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\MCP23017\MCP23017.h" />
     <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T\NEO_LEA_M8T.c">
       <FileType>CppCode</FileType>
     </ClInclude>
     <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\LTC2360\LTC2360.cpp" />
+    <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\MCP23017\MCP23017.c">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\MCP23017\MCP23017.cpp" />
     <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\NEO_LEA_M8T\NEO_LEA_M8T.cpp" />
     <ClInclude Include="..\ccOS\ccNOos\ccLibs\mcs\motionControl.c">
       <FileType>CppCode</FileType>
