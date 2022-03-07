@@ -395,7 +395,7 @@
       </Message>
     </PostBuildEvent>
     <PreLinkEvent>
-      <Command>$(SolutionDir)GenerateArduinoLib.exe $(ProjectDir)..\ccOS\ccNOos\tests\testApps\SatComACS $(ProjectDir)..\..\ccNOos_Tests\Arduino\SatComACS $(IntDirFullPath)</Command>
+      <Command>$(SolutionDir)DeployTestProjectPreLink.exe $(ProjectDir)..\ccOS\ccNOos\tests\testApps\SatComACS $(ProjectDir)..\..\ccNOos_Tests\Arduino\SatComACS $(IntDirFullPath)</Command>
       <Message>Generating Arduino Library Files and Pre-Processed 'Flat' Files</Message>
     </PreLinkEvent>
   </ItemDefinitionGroup>
@@ -624,7 +624,7 @@
       </Message>
     </PostBuildEvent>
     <PreLinkEvent>
-      <Command>$(SolutionDir)GenerateArduinoLib.exe $(ProjectDir)..\ccOS\ccNOos\tests\testApps\SatComACS $(ProjectDir)..\..\ccNOos_Tests\Arduino\SatComACS $(IntDirFullPath)</Command>
+      <Command>$(SolutionDir)DeployTestProjectPreLink.exe $(ProjectDir)..\ccOS\ccNOos\tests\testApps\SatComACS $(ProjectDir)..\..\ccNOos_Tests\Arduino\SatComACS $(IntDirFullPath)</Command>
       <Message>Generating Arduino Library Files and Pre-Processed 'Flat' Files</Message>
     </PreLinkEvent>
   </ItemDefinitionGroup>
