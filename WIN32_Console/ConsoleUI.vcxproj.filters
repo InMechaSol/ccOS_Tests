@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ccOS">
+      <UniqueIdentifier>{8dfbcb33-741f-42c1-8ce3-d6eb3035b1fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ccOS\ccNOos">
+      <UniqueIdentifier>{c8f47b72-303c-4465-b797-761c13158247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS">
+      <UniqueIdentifier>{2c0cba5e-2b67-4d84-b16d-03185704162c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\ccNOos">
+      <UniqueIdentifier>{946a1507-2aab-4439-89f7-82049bc1d8d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ccOS\ccNOos\executionSystem\execution_system_class.cpp">
+      <Filter>Source Files\ccOS\ccNOos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\computeModule\compute_module_class.cpp">
+      <Filter>Source Files\ccOS\ccNOos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\consoleMenu\console_menu_class.cpp">
+      <Filter>Source Files\ccOS\ccNOos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\ccNOos\ioDevice\io_device_class.cpp">
+      <Filter>Source Files\ccOS\ccNOos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\exeThread\exe_thread.cpp">
+      <Filter>Source Files\ccOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\osExecutionSystem\os_execution_system.cpp">
+      <Filter>Source Files\ccOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tcpComms\tcp_comms_class.cpp">
+      <Filter>Source Files\ccOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\stdIOExtProc\stdio_extproc.cpp">
+      <Filter>Source Files\ccOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\menuAPIclient\menuAPIclient.cpp">
+      <Filter>Source Files\ccOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ccOS\tests\testMainFiles\menuAPIclient\menuAPIclient_main.cpp">
+      <Filter>Source Files\ccOS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ccOS\ccNOos\executionSystem\execution_system.h">
+      <Filter>Header Files\ccOS\ccNOos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\executionSystem\version_config.h">
+      <Filter>Header Files\ccOS\ccNOos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\computeModule\compute_module.h">
+      <Filter>Header Files\ccOS\ccNOos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\consoleMenu\console_menu.h">
+      <Filter>Header Files\ccOS\ccNOos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\ioDevice\io_device.h">
+      <Filter>Header Files\ccOS\ccNOos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\computeModule\compute_module.c">
+      <Filter>Header Files\ccOS\ccNOos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\consoleMenu\console_menu.c">
+      <Filter>Header Files\ccOS\ccNOos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\executionSystem\execution_system.c">
+      <Filter>Header Files\ccOS\ccNOos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\ioDevice\io_device.c">
+      <Filter>Header Files\ccOS\ccNOos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\exeThread\exe_thread.hpp">
+      <Filter>Header Files\ccOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\osExecutionSystem\os_execution_system.hpp">
+      <Filter>Header Files\ccOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\osExecutionSystem\version_config.hpp">
+      <Filter>Header Files\ccOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tcpComms\tcp_comms.h">
+      <Filter>Header Files\ccOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\stdIOExtProc\stdio_extproc.h">
+      <Filter>Header Files\ccOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\stdIOExtProc\stdio_extproc.c">
+      <Filter>Header Files\ccOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tcpComms\tcp_comms.c">
+      <Filter>Header Files\ccOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\menuAPIclient\menuAPIclient.hpp">
+      <Filter>Header Files\ccOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\ccNOos\tests\testPlatforms\Platform_ccOS.h">
+      <Filter>Header Files\ccOS\ccNOos</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

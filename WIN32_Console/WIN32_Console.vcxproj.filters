@@ -379,6 +379,12 @@
     <Filter Include="Header Files\ccOS\ccNOos\ccLibs\devices\MCP23017">
       <UniqueIdentifier>{af8d721b-9ef3-4adc-8dfc-f4774bb9f49f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\ccOS\menuAPIclient">
+      <UniqueIdentifier>{2adfe76a-bf5c-4ed9-9ac8-d0236d233afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ccOS\menuAPIclient">
+      <UniqueIdentifier>{b8eacddc-a017-4746-a058-6d940185322d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ccOS\ccNOos\tests\testApps\SysTick\Application_Solution.cpp">
@@ -402,13 +408,13 @@
     <ClCompile Include="..\ccOS\udpComms\udp_comms.cpp">
       <Filter>Source Files\ccOS\udpComms</Filter>
     </ClCompile>
-    <ClCompile Include="..\ccOS\tcpComms\tcp_comms.cpp">
+    <ClCompile Include="..\ccOS\tcpComms\tcp_comms_class.cpp">
       <Filter>Source Files\ccOS\tcpComms</Filter>
     </ClCompile>
     <ClCompile Include="..\ccOS\stdIOExtProc\stdio_extproc.cpp">
       <Filter>Source Files\ccOS\stdIOExtProc</Filter>
     </ClCompile>
-    <ClCompile Include="..\ccOS\serialComms\serial_comms.cpp">
+    <ClCompile Include="..\ccOS\serialComms\serial_comms_class.cpp">
       <Filter>Source Files\ccOS\serialComms</Filter>
     </ClCompile>
     <ClCompile Include="..\ccOS\osExecutionSystem\os_execution_system.cpp">
@@ -525,6 +531,9 @@
     <ClCompile Include="..\ccOS\ccNOos\ccLibs\devices\MCP23017\MCP23017.cpp">
       <Filter>Header Files\ccOS\ccNOos\ccLibs\devices\MCP23017</Filter>
     </ClCompile>
+    <ClCompile Include="..\ccOS\menuAPIclient\menuAPIclient.cpp">
+      <Filter>Source Files\ccOS\menuAPIclient</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ccOS\ccNOos\tests\testApps\SysTick\Application_Solution.h">
@@ -553,9 +562,6 @@
     </ClInclude>
     <ClInclude Include="..\ccOS\udpComms\udp_comms.hpp">
       <Filter>Header Files\ccOS\udpComms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ccOS\tcpComms\tcp_comms.hpp">
-      <Filter>Header Files\ccOS\tcpComms</Filter>
     </ClInclude>
     <ClInclude Include="..\ccOS\stdIOExtProc\stdio_extproc.hpp">
       <Filter>Header Files\ccOS\stdIOExtProc</Filter>
@@ -610,9 +616,6 @@
     </ClInclude>
     <ClInclude Include="..\ccOS\ccNOos\tests\testMainFiles\ccNOos_Tests\WIN32\Application_Platform_Main.c">
       <Filter>Source Files\ccOS\ccNOos\tests\testMainFiles\ccNOos_Tests\WIN32</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32\Application_Platform_Main.c">
-      <Filter>Source Files\ccOS\ccNOos\tests\testMainFiles\SatComACS\WIN32</Filter>
     </ClInclude>
     <ClInclude Include="..\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32\Application_Platform_Main.c">
       <Filter>Source Files\ccOS\ccNOos\tests\testMainFiles\SysTick\WIN32</Filter>
@@ -760,6 +763,15 @@
     </ClInclude>
     <ClInclude Include="..\ccOS\ccNOos\ccLibs\devices\MCP23017\MCP23017.c">
       <Filter>Header Files\ccOS\ccNOos\ccLibs\devices\MCP23017</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tcpComms\tcp_comms.c">
+      <Filter>Source Files\ccOS\tcpComms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\tcpComms\tcp_comms.h">
+      <Filter>Header Files\ccOS\tcpComms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ccOS\menuAPIclient\menuAPIclient.hpp">
+      <Filter>Header Files\ccOS\menuAPIclient</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
