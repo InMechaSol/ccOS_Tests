@@ -1126,7 +1126,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SysTick|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClInclude Include="..\ccOS\ccNOos\tests\testPlatforms\Platform_ccOS.h" />
+    <ClInclude Include="..\ccOS\ccNOos\tests\testPlatforms\Platform_ccOS.hpp" />
     <ClInclude Include="..\ccOS\menuAPIclient\menuAPIclient.hpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">true</ExcludedFromBuild>

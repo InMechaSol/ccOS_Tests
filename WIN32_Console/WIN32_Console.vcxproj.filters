@@ -773,7 +773,7 @@
     <ClInclude Include="..\ccOS\menuAPIclient\menuAPIclient.hpp">
       <Filter>Header Files\ccOS\menuAPIclient</Filter>
     </ClInclude>
-    <ClInclude Include="..\ccOS\ccNOos\tests\testPlatforms\Platform_ccOS.h">
+    <ClInclude Include="..\ccOS\ccNOos\tests\testPlatforms\Platform_ccOS.hpp">
       <Filter>Header Files\ccOS\ccNOos\tests\testPlatforms</Filter>
     </ClInclude>
   </ItemGroup>
