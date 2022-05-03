@@ -260,7 +260,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <PreLinkEventUseInBuild>true</PreLinkEventUseInBuild>
+    <PreLinkEventUseInBuild>false</PreLinkEventUseInBuild>
     <OutDir>$(Configuration)\$(Platform)\$(ProjectName)\</OutDir>
     <IntDir>$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
   </PropertyGroup>
@@ -314,7 +314,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ccOS_ccACU|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <PreLinkEventUseInBuild>true</PreLinkEventUseInBuild>
+    <PreLinkEventUseInBuild>false</PreLinkEventUseInBuild>
     <OutDir>$(Configuration)\$(Platform)\$(ProjectName)\</OutDir>
     <IntDir>$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
   </PropertyGroup>
@@ -408,8 +408,10 @@
       </Message>
     </PostBuildEvent>
     <PreLinkEvent>
-      <Command>$(SolutionDir)DeployTestProjectPreLink\DeployTestProjectPreLink.exe "ccACU"</Command>
-      <Message>Deploying "test" files to ccACU repository</Message>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
     </PreLinkEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|Win32'">
@@ -639,8 +641,10 @@
       </Message>
     </PostBuildEvent>
     <PreLinkEvent>
-      <Command>$(SolutionDir)DeployTestProjectPreLink\DeployTestProjectPreLink.exe "ccACU"</Command>
-      <Message>Deploying "test" files to ccACU repository</Message>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
     </PreLinkEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ccNOos_SatComACS|x64'">
