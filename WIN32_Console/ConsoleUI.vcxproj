@@ -96,7 +96,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_ccOS; WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\ioDevice;..\ccOS\ccNOos\tests\testPlatforms;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\serialComms;..\ccOS\tcpComms;..\ccOS\menuAPIclient;..\ccOS\osExecutionSystem;..\ccOS\exeThread;..\ccOS\stdIOExtProc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ccNOos\executionSystem;..\ccNOos\computeModule;..\ccNOos\consoleMenu;..\ccNOos\ioDevice;..\ccNOos\tests\testPlatforms;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\serialComms;..\ccOS\tcpComms;..\ccOS\menuAPIclient;..\ccOS\osExecutionSystem;..\ccOS\exeThread;..\ccOS\stdIOExtProc</AdditionalIncludeDirectories>
       <AdditionalOptions>-D_WINSOCK_DEPRECATED_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -113,7 +113,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_ccOS; WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\ioDevice;..\ccOS\ccNOos\tests\testPlatforms;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\serialComms;..\ccOS\tcpComms;..\ccOS\menuAPIclient;..\ccOS\osExecutionSystem;..\ccOS\exeThread;..\ccOS\stdIOExtProc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ccNOos\executionSystem;..\ccNOos\computeModule;..\ccNOos\consoleMenu;..\ccNOos\ioDevice;..\ccNOos\tests\testPlatforms;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\serialComms;..\ccOS\tcpComms;..\ccOS\menuAPIclient;..\ccOS\osExecutionSystem;..\ccOS\exeThread;..\ccOS\stdIOExtProc</AdditionalIncludeDirectories>
       <AdditionalOptions>-D_WINSOCK_DEPRECATED_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -129,7 +129,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_ccOS; _DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\ioDevice;..\ccOS\ccNOos\tests\testPlatforms;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\serialComms;..\ccOS\tcpComms;..\ccOS\menuAPIclient;..\ccOS\osExecutionSystem;..\ccOS\exeThread;..\ccOS\stdIOExtProc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ccNOos\executionSystem;..\ccNOos\computeModule;..\ccNOos\consoleMenu;..\ccNOos\ioDevice;..\ccNOos\tests\testPlatforms;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\serialComms;..\ccOS\tcpComms;..\ccOS\menuAPIclient;..\ccOS\osExecutionSystem;..\ccOS\exeThread;..\ccOS\stdIOExtProc</AdditionalIncludeDirectories>
       <AdditionalOptions>-D_WINSOCK_DEPRECATED_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -145,7 +145,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_ccOS; NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\ccOS\ccNOos\executionSystem;..\ccOS\ccNOos\computeModule;..\ccOS\ccNOos\consoleMenu;..\ccOS\ccNOos\ioDevice;..\ccOS\ccNOos\tests\testPlatforms;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\serialComms;..\ccOS\tcpComms;..\ccOS\menuAPIclient;..\ccOS\osExecutionSystem;..\ccOS\exeThread;..\ccOS\stdIOExtProc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ccNOos\executionSystem;..\ccNOos\computeModule;..\ccNOos\consoleMenu;..\ccNOos\ioDevice;..\ccNOos\tests\testPlatforms;..\ccOS\ccLibs\devices\adafruit_ft232h;..\ccOS\serialComms;..\ccOS\tcpComms;..\ccOS\menuAPIclient;..\ccOS\osExecutionSystem;..\ccOS\exeThread;..\ccOS\stdIOExtProc</AdditionalIncludeDirectories>
       <AdditionalOptions>-D_WINSOCK_DEPRECATED_NO_WARNINGS -D_CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -156,6 +156,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\ccNOos\computeModule\compute_module.c">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClCompile Include="..\ccNOos\computeModule\compute_module_class.cpp" />
+    <ClInclude Include="..\ccNOos\consoleMenu\console_menu.c">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClCompile Include="..\ccNOos\consoleMenu\console_menu_class.cpp" />
+    <ClInclude Include="..\ccNOos\executionSystem\execution_system.c">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClCompile Include="..\ccNOos\executionSystem\execution_system_class.cpp" />
+    <ClInclude Include="..\ccNOos\ioDevice\io_device.c">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClCompile Include="..\ccNOos\ioDevice\io_device_class.cpp" />
     <ClCompile Include="..\ccOS\exeThread\exe_thread.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
@@ -180,7 +196,11 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClInclude Include="..\ccOS\ccNOos\tests\testPlatforms\Platform_ccOS.hpp" />
+    <ClInclude Include="..\ccNOos\computeModule\compute_module.h" />
+    <ClInclude Include="..\ccNOos\consoleMenu\console_menu.h" />
+    <ClInclude Include="..\ccNOos\executionSystem\execution_system.h" />
+    <ClInclude Include="..\ccNOos\executionSystem\version_config.h" />
+    <ClInclude Include="..\ccNOos\ioDevice\io_device.h" />
     <ClInclude Include="..\ccOS\menuAPIclient\menuAPIclient.hpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
@@ -213,58 +233,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClInclude Include="..\ccOS\ccNOos\computeModule\compute_module.c">
-      <FileType>CppCode</FileType>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClCompile Include="..\ccOS\ccNOos\computeModule\compute_module_class.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClInclude Include="..\ccOS\ccNOos\consoleMenu\console_menu.c">
-      <FileType>CppCode</FileType>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClCompile Include="..\ccOS\ccNOos\consoleMenu\console_menu_class.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClInclude Include="..\ccOS\ccNOos\executionSystem\execution_system.c">
-      <FileType>CppCode</FileType>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClCompile Include="..\ccOS\ccNOos\executionSystem\execution_system_class.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClInclude Include="..\ccOS\ccNOos\ioDevice\io_device.c">
-      <FileType>CppCode</FileType>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClCompile Include="..\ccOS\ccNOos\ioDevice\io_device_class.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClCompile>
     <ClInclude Include="..\ccOS\exeThread\exe_thread.hpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
@@ -290,38 +258,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="..\ccOS\tcpComms\tcp_comms.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\ccOS\ccNOos\computeModule\compute_module.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="..\ccOS\ccNOos\consoleMenu\console_menu.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="..\ccOS\ccNOos\executionSystem\execution_system.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="..\ccOS\ccNOos\executionSystem\version_config.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="..\ccOS\ccNOos\ioDevice\io_device.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
