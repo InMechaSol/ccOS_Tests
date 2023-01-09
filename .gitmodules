@@ -5,3 +5,11 @@
 	path = ccNOos
 	url = https://github.com/InMechaSol/ccNOos.git
 	branch = main
+[submodule "Qt"]
+	path = Qt
+	url = https://github.com/InMechaSol/Qt.git
+	branch = main
+[submodule "Ubuntu"]
+	path = Ubuntu
+	url = https://github.com/InMechaSol/Ubuntu.git
+	branch = ccOS_Tests
